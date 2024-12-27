@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded" , function(){
     const product = num1 * num2
     const quotient = num1 / num2
 
-    alert(` Results:\n Sum: ${sum}\n Subtraction: ${subtraction}\n Multiplication: ${product}\n Division: ${quotient}`)
+    alert(` Results:\n Sum: ${sum}\n Subtraction: ${subtraction}\n Multiplication: ${product}\n Division: ${quotient.toFixed(2)}`)
 })
